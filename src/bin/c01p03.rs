@@ -11,7 +11,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn check_string_permutation() {
+    fn test_urlify() {
         assert_eq!(urlify("Mr Siva Krishna"), "Mr%20Siva%20Krishna");
     }
 }
